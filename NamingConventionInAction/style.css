@@ -1,23 +1,36 @@
 /* NamingConventionInAction */
 
-.container-left, .container-center, .container-right {
-    margin: 5px;
-    border: 1px solid rgb(238, 238, 238);
-    float: left;
-    width: 180px;
-    text-align: center;
-  }
-  li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline;
+header {
+    background: black;
+      }
+  .material-icons{
+      display: inline-flex;
+      vertical-align: top;
+    color: white;
+    margin: 20px;
+   
     
-      }
-      header {
-          display: inline;
-          background-color: #333;
-
-      }
-        
+    }
+  li {
+    display: inline-block;
+    border-radius: 5px;
+    }
+  input, button {
+    float: right;
+    margin: 4pt;
+      padding: 2pt;
+    }
+  .jq {
+    display: inline;
+      float: right;
+    position: relative;
+    bottom: 280px 
+  }
+   .text-footer {
+              text-align: center;
+              padding: 30px 0;
+              font-family: 'Ubuntu', sans-serif;
+              display: flex;
+              justify-content: center;
+              color: rgb(224, 224, 224);
+          } 
