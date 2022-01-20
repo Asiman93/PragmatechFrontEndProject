@@ -1,1 +1,23 @@
 /* NamingConventionInAction */
+
+.container-left, .container-center, .container-right {
+    margin: 5px;
+    border: 1px solid rgb(238, 238, 238);
+    float: left;
+    width: 180px;
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    
+      }
+      header {
+          display: inline;
+          background-color: #333;
+
+      }
+        
