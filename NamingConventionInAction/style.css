@@ -2,7 +2,10 @@
 
 header {
     background: black;
+    width: 1439px;
+    height: 54px;
       }
+      
   .material-icons{
       display: inline-flex;
       vertical-align: top;
